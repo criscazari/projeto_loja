@@ -1,0 +1,76 @@
+body{
+background-color: #dfdfdf;
+
+}
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.card-top{
+    text-align: center;
+}
+
+#user{
+    width: 110px;
+    margin: auto;
+    border-radius: 80px;
+    box-shadow: 8px 8px 8px #6e6e6e;
+    
+}
+h2{
+    color: #d082ce;
+    font-family: sans-serif;
+}
+
+p{
+    color: rgb(63, 63, 174);
+    font-family: sans-serif;
+}
+
+.card-group{
+    margin-bottom: 10px;
+   
+}
+
+.card-group > label{
+   display: block;
+    width: 100%;
+    color: gray;
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+
+}
+
+.card-group > button{
+    background-image: linear-gradient(to right, #c94670, blue);
+    border-radius: 30px;
+    background-color: #c94670;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    outline: none;
+
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right, #c94670, rgb(0, 0, 141));
+}
+
